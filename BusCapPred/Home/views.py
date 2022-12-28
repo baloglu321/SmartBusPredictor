@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from . import Pi_works
+from . import bus_cap_pred
 
 
         
@@ -13,7 +13,7 @@ def home(request):
     return render(request,"index.html",data)
 
 def eyüpsultan(request):
-    result_reg,per_time=Pi_works.pred_bus(0)
+    result_reg,per_time=bus_cap_pred.pred_bus(0)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -34,7 +34,7 @@ def eyüpsultan(request):
     return render(request,"bus_0.html",data)
 
 def pendik(request):
-    result_reg,per_time=Pi_works.pred_bus(1)
+    result_reg,per_time=bus_cap_pred.pred_bus(1)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     if per_time:
         info=[]
@@ -55,7 +55,7 @@ def pendik(request):
     return render(request,"bus_0.html",data)
 
 def emirgan(request):
-    result_reg,per_time=Pi_works.pred_bus(2)
+    result_reg,per_time=bus_cap_pred.pred_bus(2)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -76,7 +76,7 @@ def emirgan(request):
 
 def taksim(request):
 
-    result_reg,per_time=Pi_works.pred_bus(3)
+    result_reg,per_time=bus_cap_pred.pred_bus(3)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -97,7 +97,7 @@ def taksim(request):
 
 
 def kadıköy(request):
-    result_reg,per_time=Pi_works.pred_bus(4)
+    result_reg,per_time=bus_cap_pred.pred_bus(4)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -120,7 +120,7 @@ def kadıköy(request):
 
 
 def karaköy(request):
-    result_reg,per_time=Pi_works.pred_bus(5)
+    result_reg,per_time=bus_cap_pred.pred_bus(5)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -141,7 +141,7 @@ def karaköy(request):
     return render(request,"bus_0.html",data)
 
 def beşiktaş(request):
-    result_reg,per_time=Pi_works.pred_bus(6)
+    result_reg,per_time=bus_cap_pred.pred_bus(6)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -162,7 +162,7 @@ def beşiktaş(request):
     return render(request,"bus_0.html",data)
 
 def ortaköy(request):
-    result_reg,per_time=Pi_works.pred_bus(7)
+    result_reg,per_time=bus_cap_pred.pred_bus(7)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -182,7 +182,7 @@ def ortaköy(request):
     return render(request,"bus_0.html",data)
 
 def üsküdar(request):
-    result_reg,per_time=Pi_works.pred_bus(8)
+    result_reg,per_time=bus_cap_pred.pred_bus(8)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
@@ -202,7 +202,7 @@ def üsküdar(request):
     return render(request,"bus_0.html",data)
 
 def kuzguncuk(request):
-    result_reg,per_time=Pi_works.pred_bus(9)
+    result_reg,per_time=bus_cap_pred.pred_bus(9)
     table_head=["Tarih","Period","Kapasite","Tahmini Doluluk oranı(%)"]
     regressions=[]
     if per_time:
