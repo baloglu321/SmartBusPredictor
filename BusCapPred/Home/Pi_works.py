@@ -20,7 +20,7 @@ import datetime
 
 #reading data via mongodb
 
-my_client = pymongo.MongoClient("mongodb://190.92.211.191:27017")
+my_client = pymongo.MongoClient("mongodb://*Your_Ip_Here*:27017")
 bus_client= my_client["my_database"]
 bus_collection =bus_client["bus_list"]
 
