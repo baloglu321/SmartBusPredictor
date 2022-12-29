@@ -42,7 +42,7 @@ Go inside the folder and edit to settings.py
     nano settings.py
     
     
-In ALLOWED_HOSTS = ['*'] on line 29, replace "*" with the dimming server ips
+In ALLOWED_HOSTS = ['_'] on line 29, replace '_' with the dimming server ips
 
 Save settings.py and back to old folder
 
