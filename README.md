@@ -13,7 +13,7 @@ First of all, you must install docker and mongoDb on your server.
 
 *For install docker on your server (my recommended OS is ubuntu): https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
-Run mongodb on top of docker
+For running MongoDB on Docker
 
 
     docker run -d --network=host -v /opt/data:/data/db mongo
