@@ -25,12 +25,12 @@ And import your dataset from this mongodb server.
 
 Clone this repository to run on the server
 
-    git clone https://github.com/baloglu321/Patika_Practicum.git
+    git clone https://github.com/baloglu321/SmartBusPredictor.git
     
 Go inside the folder and isntall requirements
 
 
-    cd Patika_Practicum
+    cd SmartBusPredictor
     pip3 install -r requirements.txt
     
     
