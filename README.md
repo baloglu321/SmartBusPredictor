@@ -52,5 +52,9 @@ And run it...
 
         python3 manage.py runserver 0.0.0.0:8000
         
-        
+![Adsız-2](https://user-images.githubusercontent.com/98214109/236670346-f754c8aa-512a-4fd0-9427-ce5c658b9086.png)
+
+![Adsız](https://user-images.githubusercontent.com/98214109/236670328-e2e85b01-bec3-4361-8373-dbe4803e5d81.png)
+
+
 
